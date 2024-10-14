@@ -11,10 +11,9 @@ body {
     background-image: linear-gradient(rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.5)),
         url(background_mobile.png);
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     color: #FFFFFF;
     height: 1024px;
-
     gap: 0px;
     opacity: 0px;
     padding: 30px;
@@ -123,7 +122,10 @@ h2 {
     object-fit: cover;
 }
 
-
+.news-card-text-box {
+    width: 247px;
+    margin: 0 auto;
+}
 
 .news-card-date {
     font-family: Inter;
@@ -143,10 +145,11 @@ h2 {
     text-align: left;
     color: #000000;
     margin-top: 16px;
+
 }
 
 .card-link-div {
-   display: flex;
+    display: flex;
 }
 
 .div-left {
@@ -154,9 +157,9 @@ h2 {
 }
 
 .news-card-link {
-           
-       margin-top: 40px;
-       margin-bottom: 24px;
+
+    margin-top: 40px;
+    margin-bottom: 24px;
 }
 
 
@@ -166,5 +169,116 @@ h2 {
     font-weight: 500;
     line-height: 18.15px;
     color: #D9852C;
-     
+}
+
+
+
+
+/* XXXXXXXXXX  TABLET  XXXXXXXXXXXXXX */
+
+@media screen and (min-width: 576px) {
+
+    #hero {
+        width: 600px;
+    }
+
+    h1 {
+        font-family: Libre Caslon Display;
+        font-size: 70px;
+        font-weight: 400;
+        line-height: 86.52px;
+        text-align: left;
+    }
+
+    p {
+        font-family: Inter;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30.33px;
+        text-align: left;
+    }
+
+    #news-section {
+        width: 100%;
+    }
+
+    h2 {
+        font-family: Inter;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36.31px;
+        text-align: left;
+
+    }
+
+    #news-cards {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .news-card {
+        display: inline;
+        width: 187px;
+        flex-shrink: 1;
+        margin: 12px;
+        justify-content: space-evenly;
+    }
+
+    .news-card-image {
+        width: 187px;
+        height: 352px;
+        object-fit: inherit;
+    }
+
+    .news-card-text-box {
+        width: 123px;
+    }
+
+
+
+}
+
+
+
+
+
+
+/* XXXXXXXXXX  PC  XXXXXXXXXXXXXX */
+
+@media screen and (min-width: 768px) {
+
+    #logo {
+        flex-grow: 1;
+    }
+
+    #mobile-menu {
+        display: none;
+    }
+
+    #navbar-menu {
+        flex-grow: 0;
+        flex-direction: row;
+    }
+
+    #desktop-menu {
+        display: inline;
+        flex-direction: row;
+    }
+
+    a {
+        color: #FFFFFF;
+    }
+
+    .desktop-menu-link {
+        display: inline;
+    }
+
+    #get-started-button-div {
+        display: inline;
+
+    }
+
+
+
 }
