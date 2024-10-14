@@ -9,16 +9,16 @@ body {
 
 #hero-section {
     background-image: linear-gradient(rgba(39, 39, 39, 0.5), rgba(39, 39, 39, 0.5)),
-        url(background_mobile.png);
+        url(Background.png);
     background-repeat: no-repeat;
-    background-size: cover;
-
+    background-size:cover;
     color: #FFFFFF;
     height: 1024px;
     width: auto;
     gap: 0px;
     opacity: 0px;
-    padding: 24px;
+    padding: 30px;
+    flex-grow: 1;
 }
 
 #navbar {
@@ -46,7 +46,7 @@ body {
 
 
 #hero {
-    width: Fixed (314px)px;
+    width: 314px;
     height: Hug (429px)px;
     margin-top: 285px;
     gap: 32px;
@@ -59,6 +59,15 @@ h1 {
     font-weight: 400;
     line-height: 61.8px;
     text-align: left;
+}
+
+p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30.33px;
+    text-align: left;
+
 }
 
 #learn-more-button-div {
@@ -84,6 +93,11 @@ a.button {
     color: #222222;
 }
 
+#news-section {
+    width: 100%;
+    margin: 30px;
+}
+
 h2 {
     font-family: Inter;
     font-size: 24px;
@@ -93,6 +107,17 @@ h2 {
     color: #000000;
     margin-top: 60px;
     margin-bottom: 60px;
+}
+
+
+
+.news-card {
+    width: 311px;
+}
+
+.news-card-image {
+    width: auto;
+    max-width: 311px;
 }
 
 .news-card-date {
