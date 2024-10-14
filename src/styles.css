@@ -95,7 +95,7 @@ a.button {
 }
 
 #news-section {
-    width: 100%;
+    max-width: 311px;
     margin: 30px;
 }
 
@@ -117,8 +117,8 @@ h2 {
 }
 
 .news-card-image {
-    width: auto;
     max-width: 311px;
+    object-fit: cover;
 }
 
 .news-card-date {
