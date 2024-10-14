@@ -114,6 +114,7 @@ h2 {
 
 .news-card {
     width: 311px;
+    margin-top: 30px;
 }
 
 .news-card-image {
@@ -137,6 +138,10 @@ h2 {
     line-height: 24.2px;
     text-align: left;
     color: #000000;
+}
+
+.news-card-link {
+    align-self: flex-end;
 }
 
 .read-more-button {
