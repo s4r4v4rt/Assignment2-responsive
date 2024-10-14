@@ -14,11 +14,12 @@ body {
     background-size:cover;
     color: #FFFFFF;
     height: 1024px;
-    width: auto;
+
     gap: 0px;
     opacity: 0px;
     padding: 30px;
     flex-grow: 1;
+    margin: 0;
 }
 
 #navbar {
